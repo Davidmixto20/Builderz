@@ -1,0 +1,29 @@
+{
+  "name": "builderz",
+  "version": "1.0.0",
+  "description": "Plantilla HTML integrada con Node.js y Express",
+  "keywords": [
+    "node",
+    "npm",
+    "json",
+    "js"
+  ],
+  "homepage": "https://github.com/Davidmixto20/Builderz#readme",
+  "bugs": {
+    "url": "https://github.com/Davidmixto20/Builderz/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davidmixto20/Builderz.git"
+  },
+  "license": "MIT",
+  "author": "David Reyes",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
