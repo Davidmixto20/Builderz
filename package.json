@@ -25,5 +25,9 @@
   },
   "dependencies": {
     "express": "^5.2.1"
-  }
+  },
+  "main": "src/app.js",
+  "scripts": {
+  "start": "node src/app.js"
+}
 }
