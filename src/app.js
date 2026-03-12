@@ -37,7 +37,7 @@ app.use(express.static(path.join(__dirname, "../public")));
 app.set("views", path.join(__dirname, "views"));
 
 app.get("/", (req, res) => {
-    res.render("pages/index", { title: "Home", services: services });
+    res.render("index", { title: "Home", services: services });
 });
 
 app.get("/blog", (req, res) => {
