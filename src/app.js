@@ -46,31 +46,31 @@ app.get("/", (req, res) => {
 });
 
 app.get("/blog", (req, res) => {
-    res.render("pages/blog", { title: "Blog" });
+    res.render("blog", { title: "Blog" });
 });
 
 app.get("/team", (req, res) => {
-    res.render("pages/team", { title: "Team" });
+    res.render("team", { title: "Team" });
 });
 
 app.get("/single", (req, res) => {
-    res.render("pages/single", { title: "Single Page" });
+    res.render("single", { title: "Single Page" });
 });
 
 app.get("/contact", (req, res) => {
-    res.render("pages/contact", { title: "Contact" });
+    res.render("contact", { title: "Contact" });
 });
 
 app.get("/service", (req, res) => {
-    res.render("pages/service", { title: "Services" });
+    res.render("service", { title: "Services" });
 });
 
 app.get("/about", (req, res) => {
-    res.render("pages/about", { title: "About" });
+    res.render("about", { title: "About" });
 });
 
 app.get("/portfolio", (req, res) => {
-    res.render("pages/portfolio", { title: "Portfolio" });
+    res.render("portfolio", { title: "Portfolio" });
 });
 
 app.listen(PORT, () => {
